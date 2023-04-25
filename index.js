@@ -6,7 +6,7 @@ import cors from 'cors'
 // const bodyParser = require('body-parser')
 
 // import routes
-import Router from '../backend/routes/routes.js'
+import Router from './routes/routes.js'
 
 // init express
 const app = express()
