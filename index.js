@@ -23,4 +23,6 @@ app.use(express.urlencoded({ extended: true }))
 // use router
 app.use(Router)
 
-app.listen(5000, () => console.log('Server running at port 5000'))
+// app.listen(5000, () => console.log('Server running at port 5000'))
+app.listen(process.env.PORT || 5500)
+console.log('Server running at port 5500')
